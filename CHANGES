@@ -1,4 +1,33 @@
 
+2.4-238 | 2016-01-15 12:56:33 -0800
+
+  * Add HTTP version information to HTTP log file. (Aaron Eppert)
+
+  * Add NOTIFY as a valid SIP message, per RFC 3265. (Aaron Eppert)
+
+  * Improve HTTP parser's handling of requests that don't have a URI.
+    (William Glodek/Robin Sommer)
+
+  * Fix crash when deleting non existing record member. Addresses
+    BIT-1519. (Johanna Amann)
+
+2.4-228 | 2015-12-19 13:40:09 -0800
+
+  * Updating BroControl submodule.
+
+2.4-227 | 2015-12-18 17:47:24 -0800
+
+  * Update host name in windows-version-detection.bro. (Aaron Eppert)
+
+  * Update installation instructions to mention OpenSSL dependency for
+    newer OS X version. (Johanna Amann)
+
+  * Change a stale bro-ids.org to bro.org. (Johanna Amann)
+
+  * StartTLS support for IRC. (Johanna Amann)
+
+  * Adding usage guard to canonifier script. (Robin Sommer)
+
 2.4-217 | 2015-12-04 16:50:46 -0800
 
   * SIP scripts code cleanup. (Seth Hall)
